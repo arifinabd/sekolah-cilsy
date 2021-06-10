@@ -1,0 +1,47 @@
+body {
+    color: rgb(11, 3, 87);
+    font-family: unset;
+    background-color: aqua;
+}
+p > span {
+    color: saddlebrown;
+}
+/* lebih diutamakan elemen dengan infomasi yang rinci */
+
+label {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

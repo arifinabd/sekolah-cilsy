@@ -1,0 +1,254 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.halaman3{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+/* -----------------------------------------------untuk bagian atas------------------------------------------- */
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+        /* -------------------------------judul halaman------------------------------------------------------- */
+        .titleHalaman3{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 350;
+            font-size: 36px;
+            line-height: 34px;
+            color: black;
+        }
+        /* ----------------------------------------------menu search dan shop------------------------------------------- */
+        .nav{
+            display: flex;
+            flex-direction: row;
+            
+        }
+            .nav1 {
+                width: 21px;
+                height: 21px;
+                margin-right: 20px;
+                /* margin-left: 95%; */
+            }
+            .nav2{
+                display: flex;
+                flex-direction: row-reverse;
+                /* justify-content: flex-end; */
+                margin-right: 150px;
+                margin-top: 5px;
+                border-bottom: solid 1px #C4C4C4;
+                width: 250px;
+            }
+                .nav2 p{
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #E7F0F2;
+                    margin-top: -1px;
+                    margin-right: 50px;
+                }
+
+    /* -------------------------------------------------untuk konten------------------------------- */
+    .containHalaman3{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+        /* ----------------------------konten menu sebelah kiri-------------------------------------- */
+        .conHal3_1{
+            border-left: solid 1px #E7F0F2;
+            height: 180px;
+            /* border: solid 1px black; */
+            /* box-sizing: border-box; */
+            margin-top: 240px;
+        }
+            .conHal3_1 p{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 20px;
+                width: 100px;
+                margin-top: 0;
+                margin-left: 10px;
+            }
+            p .aktif{
+                font-weight: 900;
+            }
+            p.aktif{
+                font-weight: 900; 
+            }
+        /* --------------------------------konten menu tengah------------------------------------ */
+        .conHal3_2{
+            /* border: solid 1px black; */
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            width: 700px;
+            /* margin-left: 150px;
+            margin-right: 150px; */
+        }
+            .conHal3_2Child{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                width: 173px;
+                height: 116px;
+                background-color: rgba(231, 240, 242, 0.3);
+                margin: 5px;
+                margin-right: 35px;
+                margin-bottom: 25px;
+            }
+                .conHal3_2Child1{
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin-left: 20px;
+                }
+                .conHal3_2Child2{
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 10px;
+                    line-height: 16px;
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                }
+        /* ---------------------------------konten menu sebelah kanan--------------------------------------- */
+        .conHal3_3{
+            border-right: solid 1px #E7F0F2;
+            height: 180px;
+            /* border: solid 1px black; */
+            /* box-sizing: border-box; */
+            /* width: 100px; */
+        }
+            .conHal3_3 p{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 20px;
+                width: 100px;
+                text-align: right;
+                margin-top: 0;
+                margin-right: 10px;
+            }
+            .conHal3_3 span{
+                font-weight: 900;
+            }
+    
+/* ------------------------------menu nomer----------------------------------------- */
+.numberBar{
+    display: flex;
+    align-items: flex-end;
+    /* text-align: center; */
+    justify-content: center;
+    margin-left: 30px;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    margin: 20px auto;
+    border-top: solid 1px #E7F0F2;
+    width: 400px;       
+}   
+    .numberBar p{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 10px;
+        color: #E7F0F2;
+        margin-bottom: 20px;
+    }
+    .numberBar span{
+        /* margin-right: 13px; */
+        color: black;
+    }
+
+/* ---------------------------------footer---------------------------------------- */
+/* .footer3{
+    border-top: solid 1px #C4C4C4;
+    text-align: center;
+    
+}
+    .footer3 img{
+        margin-top: 10px;
+    } */
+
+
+
+
+
+    
+@media only screen and (max-width: 868px){
+    .container{
+        width: 100%;
+    }
+    .containHalaman3{
+        display:flex;
+        flex-direction: column;
+    }
+    .conHal3_1 {order: 1;}
+    .conHal3_2 {order: 3;}
+    .conHal3_3 {order: 2;}
+    
+    .conHal3_1{
+        border-left: solid 1px #E7F0F2;
+        height: 50px;
+        /* border: solid 1px black; */
+        /* box-sizing: border-box; */
+        margin-top: 50px;
+    }
+        .conHal3_1-1 p{
+            display: inline;
+        }
+        .conHal3_1 p{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 20px;
+            width: 100px;
+            margin-top: 0;
+            margin-left: 10px;
+        }
+        .conHal3_1 span{
+            font-weight: 900;
+
+        }
+    .conHal3_3{
+        border-right: solid 1px #E7F0F2;
+        height: 50px;
+        /* border: solid 1px black; */
+        /* box-sizing: border-box; */
+        /* width: 100px; */
+    }
+        .conHal3_3-1 p{
+            display: inline;
+        }
+        .conHal3_3 p{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 20px;
+            width: 100px;
+            text-align: right;
+            margin-top: 0;
+            margin-right: 10px;
+        }
+        .conHal3_3 span{
+            font-weight: 900;
+        }
+    .nav1{
+        margin-left: -20%;
+    }
+}

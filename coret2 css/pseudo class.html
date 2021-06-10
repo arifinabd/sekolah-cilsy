@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    
+    <style>
+        .hallo {
+            color: orange;
+        }
+        .hallo:hover {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+        }
+        .hallo:active {
+            text-decoration:line-through;
+        }
+        .hallo:visited {
+            color: red;
+        }
+
+
+        li:nth-child(3n+1) a {
+            color: green;
+        }
+        /* :first-child(memilih elemen pertama pada sebuah parent)
+            :last-child(memilih elemen terakhir dari sebuah parent)
+            :nth-child(memilih elemen yang ditentukan pada sebuah parent
+                       bisa urutan (1),(2),.. ganjil(even), genap(odd),
+                       pola (2n),(3n+2),(4n-1))*/   
+        
+        p:last-of-type {
+            color: hotpink;
+        }
+        /* :last-of-type(memilih elemen terakhir dari sebuah jenis/tipe tag)
+            :first-child(memilih elemen pertama dari sebuah jenis/tipe tag)*/
+    </style>
+
+</head>
+<body>
+    <h1>PSEUDO CLASS</h1>
+    <a href="#" class="hallo">hallo world</a>
+
+    <ul>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+        <li><a href="#">link 4</a></li>
+        <li><a href="#">link 5</a></li>
+        <li><a href="#">link 6</a></li>
+        <li><a href="#">link 7</a></li>
+        <li><a href="#">link 8</a></li>
+        <li><a href="#">link 9</a></li>
+        <li><a href="#">link 10</a></li>
+    </ul>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates 
+        ducimus aperiam minus est nesciunt. Tempora suscipit ratione fuga 
+        delectus dolores itaque? Architecto eius fugit laboriosam omnis nemo 
+        ea nisi temporibus?</p>
+    
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium 
+        tenetur quis beatae impedit? Architecto ex illum nemo fugit velit 
+        esse! Ab dicta quibusdam quisquam dolorem optio nemo beatae nobis 
+        tempora.</p>
+</body>
+</html>

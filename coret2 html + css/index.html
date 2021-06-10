@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {color: blue;
+            font-family: Verdana;
+            font-size: 300%; 
+            }
+        p {color: chartreuse;
+            font-family: monospace;
+            font-size: 160%;
+            }
+
+        div table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        div td, th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+        div tr:nth-child(even) {
+            background-color: cornflowerblue;
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: cornflowerblue;
+        }
+
+        div > p {
+            background-color: black;
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar fullstack</title>
+</head>
+<body>
+    <p>Hallo word</p>
+    <h1>fullstack h1</h1>
+    <hr>
+    <h2>fullstack h2</h2>
+    <hr>
+    <h3>fullstack h3</h3>
+    <hr>
+    <h4>fullstack h4</h4>
+    <p style="font-size: xx-small;">this is a text</p>
+    <hr>
+    <h5>fullstack h5</h5>
+    <h6>fullstack h6</h6>
+
+    <a href="http://www.facebook.com">visit facebook</a>
+
+    <h2>the style attribute</h2>
+    <p>the style attribute is used to add styles to an element, such as color:</p>
+    <p style="color: deeppink;">learning by doing</p>
+
+    <h2 title="header">title header</h2>
+
+    <img src="pinkbeach.JPG" alt="pantai pink" width="270" height="140">
+
+    <p>this is<br>
+    a paragraph<br>
+    with line breaks.
+    </p>
+
+    <p>the pre tag preserves both spaces and line breaks:</p>
+    <pre> <!--elemen untuk membuat puisi atau pantun-->
+        my bonnie lies over the ocean.
+
+        my bonnie lies over the sea.
+
+        my bonnie lies over the ocean.
+
+        oh, bring back my bonnie to me.
+    </pre>
+
+    <p>normal</p>
+    <p style="color: gold;">i am gold</p>
+    <p style="font-size: large;">i am large</p>
+    <p style="font-size: small;">i am small</p>
+    <p style="color: maroon;">i am marron</p>
+    <p style="background: rgb(95, 223, 10);">background blue</p>
+
+    <h1 style="font-family: fantasy;" >hallo world</h1>
+    <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">this is a paragraph</p>
+    <hr>
+    <h1 style="text-align: center;">judul nya banget judul</h1>
+    <p style="text-align: center;">isi nya apaan yak?</p>
+
+    <ul> <!--list menggnakan angka-->
+        <li>kaki</li>
+        <li>tangan</li>
+        <li>leher</li>
+        <li>jari - jari</li>
+    </ul>
+
+    <ol> <!--list menggunakan titik-->
+        <li>kaki</li>
+        <li>tangan</li>
+        <li>leher</li>
+        <li>jari - jari</li>
+    </ol>
+
+    <button>klik di sini</button>
+     
+     <h1 style="text-align: center;"><i>cerita anak anak</i></h1>
+
+     <!--contoh elemen inline (bold, italic, delete, small, ins, sup, sub)-->
+     <p><strong>cerita malinkundang</strong></p>
+     <p>do not forget to buy <mark>milk and cookies</mark> from store</p>
+     <p>is <small>smaller</small> than <b>this</b> </p>
+     <p>i wanna be your <del>friend</del> <ins>boy friend</ins> </p>
+     <p>gua <sup>lompat</sup> jauh </p>
+     <p>gua <sub>jongkok</sub> parah </p>
+
+     <bdo dir="rtl">gua mau makan nasi pake ayam semur jengkol</bdo> <!--elemen membalik tulisan-->
+<hr>    
+
+     <address> <!--elemen membuat alamat-->
+         Written by Abdurrahman Arifin. <br>
+         Visit us at. <br>
+         linkedin/abdurrahman_arifin.com <br>
+         Box 15510, Tangerang. <br>
+         IDN
+     </address>
+
+
+    <p style="border:2px solid teal">mamamia lezatos</p>
+
+<div>
+    <table>
+        <tr>
+            <th>food</th>
+            <th>from</th>
+            <th>wet or dry</th>
+        </tr>
+        <tr>
+            <td>rendang</td>
+            <td colspan="2">indonesia</td> <!--colspan untuk menggabungkan 2 baris menjadi satu-->
+            
+        </tr>
+        <tr>
+            <td>ramen</td>
+            <td>japan</td>
+            <td>wet</td>
+        </tr>
+        <tr>
+            <td>waffle</td>
+            <td>american</td>
+            <td>dry</td>
+        </tr>
+    </table>
+</div>
+<hr>
+<table>
+    <tr>
+        <th>food</th>
+        <th>from</th>
+        <th>wet or dry</th>
+    </tr>
+    <tr>
+        <td>rendang</td>
+        <td colspan="2">indonesia</td>
+        
+    </tr>
+    <tr>
+        <td>ramen</td>
+        <td>japan</td>
+        <td>wet</td>
+    </tr>
+    <tr>
+        <td>waffle</td>
+        <td>american</td>
+        <td>dry</td>
+    </tr>
+</table>
+
+
+<div>
+    <p>paragraph 1 in the div</p>
+    <section><p>paragraph 2 in the div</p></section> <!-- not child but descendant-->
+    <p>paragraph 3 in the div</p>
+    <p>paragraph 4 in the div</p>
+</div>   <hr>
+
+<p>checkbox</p> <!--contoh checkbox-->
+<form>
+    <input type="checkbox" name="makanan1" value="kwetiau">kwetiau
+    <br>
+    <input type="checkbox" name="makanan1" value="bakpao">bakpao
+    <br>
+    <input type="checkbox" name="makanan1" value="yamien">yamien
+    <br>
+</form>     <hr>
+
+<p>radio</p> <!--contoh radio-->
+<form>
+    <input type="radio" name="gender" value="male" checked>male
+    <br>
+    <input type="radio" name="gender" value="female">female
+    <br>
+</form>    <hr>
+
+<p>selection</p> <!--contoh selection-->
+<select>
+    <option value="lada">lada</option>
+    <option value="volvo">volvo</option>
+    <option value="audi">audi</option>
+</select>                <hr>
+
+<p>text fields</p> <!--contoh text fields-->
+<form>
+    nama : <br>
+    <input type="text" name="nama"> <br>
+
+    umur : <br>
+    <input type="text" name="umur">
+</form>           <hr>
+
+<p>submit button</p> <!--contoh submit button-->
+<form action="/action.php">
+nama : <br>
+<input type="text" name="nama" value="abdurrahman arifin"> <br>
+
+umur : <br> 
+<input type="text" name="umur" value="22"> <br>
+
+<input type="submit" value="submit">
+</form>
+<hr>
+
+<table>
+    <tr>
+        <td>apakeeee</td>
+        <td>
+            <table>
+                <tr>
+                    <td>itulahhh</td>
+                </tr>
+                <tr>
+                    <td>nahhhhh</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<hr>
+
+<table>
+    <tr>
+        <td>iayaiyaa</td>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td>itulahhh</td>
+                </tr>
+                <tr>
+                    <td>nahhhhh</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<h1>hahahahah<span style="color: crimson;">hihihih</span>hahahaha</h1>
+
+<h1>ini akan terlihat</h1>
+<h1 style="display: none;">ini tidak terlihat</h1>
+
+
+</body>
+</html>         

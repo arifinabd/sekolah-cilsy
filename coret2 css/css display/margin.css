@@ -1,0 +1,28 @@
+div {
+    display: inline-block;
+}
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightsteelblue;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+}
+
+/* - untuk overlapping horizontal margin left dan right bertambah
+   - untuk overlapping vertikal margin left dan right dipilih value yang besar
+   - Value minus (-) untuk hasil margin yang berlawanan
+   - margin auto untuk value right dan left sama (nilai kedua sisi harus auto)
+   - urutan shorthand [top,right,bottom,left]/[top,auto,bottom] 
+   */

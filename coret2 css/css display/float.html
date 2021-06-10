@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            border: 2px solid black;
+            margin: auto;
+            padding: 5px;
+            font-weight: bold;
+            color: #eaeaea;
+            font-size: 4rem;
+            text-align: center;
+            line-height: 150px;
+           
+        }
+
+        .satu {
+            background-color: blueviolet;
+            width: 150px;
+            height: 500px;
+            float: left;
+        }
+        .dua {
+            background-color: coral;
+            width: 500px;
+            height: 500px;
+            float: left;
+        }
+        .tiga {
+            background-color: darkcyan;
+            width: 150px;
+            height: 500px;
+            float: left;
+        }
+        .clear {
+            clear: left;
+        } /* penggunaan clear untuk merapihkan konten (yg menggunakan float) suapaya tetap dalam container*/
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="satu"><p></p>(1)<br>satu</p></div>
+        <div class="dua"><p>(2)<br>dua</p></div>
+        <div class="tiga"><p>(3)<br>tiga</p></div>
+
+        <div class="clear"></div> <!--penggunaan clear menggnakan div kosong pada html-->
+    </div>
+
+</body>
+</html>

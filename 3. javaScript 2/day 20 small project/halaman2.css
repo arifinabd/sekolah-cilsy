@@ -1,0 +1,223 @@
+.container{
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 80%;
+}
+.background2{
+    background-color: #E7F0F24D;
+    width: 511px;
+    height: 650px;
+    /* left: 20px;
+    top: 0; */
+    z-index: -999;
+    position: absolute;
+    margin-top: -50px;
+}
+.halaman2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 55px;
+    margin-bottom: -20px;
+}
+
+/* ------------------------product page sebelah kiri----------------------------------------------------------- */
+    /* .productPage1{
+        /* margin-top: 60px; */
+        /* display: flex;
+        justify-content: flex-start; */
+    /* } */ 
+        .gambarOrang img{
+            width: 523px;
+            height: 567px;
+        }
+        .productConten3{
+            display: flex;
+            flex-direction: row;
+            margin-top: -50px;
+        }
+            .productConten3_1 {
+                display: flex;
+                align-items: center;
+                width: 40px;
+                height: 48px;
+                background-color: black;
+            }
+                .productConten3_1 i{
+                    color: white;
+                    margin-left: 35%;
+                }
+            .productConten3_2{
+                display: flex;
+                align-items: center;
+                width: 40px;
+                height: 48px;
+                background-color: black;
+                margin-left: 10px;
+            }
+                .productConten3_2 i{
+                    color: white;
+                    margin-left: 35%;
+                }
+
+/* ---------------------------------product page sebelah kanan---------------------------------------------------- */
+     /* .productPage2{
+         margin-bottom: 20px;
+    } */
+        /* -------------------------------------menu atas------------------------------------------- */
+        .navProduct{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+        }
+            .logoShop{
+                width: 21px;
+                height: 21px;
+                margin-right: 0;
+                margin-left: 95%;
+            }
+            .goBack{
+                margin-top: 20px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 12px;
+                line-height: 14px;
+            /* text-align: right; */
+                color: black;
+            }
+        /* ----------------------------------judul produk---------------------------------------------------- */
+        .titleProduct{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 300px;
+            font-size: 36px;
+            line-height: 34px;
+            margin-top: 20px;
+        }
+            .titleProduct2{
+                font-weight: bolder;
+            }
+        /* ---------------------------------------harga produk------------------------------------------------ */
+        .hargaProduct{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 28px;
+            margin-top: 30px;
+        }
+            .hargaProduct1{
+                font-weight: 900;
+                font-style: normal;
+                font-size: 24px;
+                color: #363A41;
+            }
+            .hargaProduct2{
+                font-weight: 500;
+                font-style: normal;
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.3);
+                text-decoration: line-through;
+            }
+        /* ---------------------------------deskripsi produk------------------------------------------------ */
+        .captionProduct{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: rgba(0, 0, 0, 0.3);
+            margin-top: 40px;
+        }
+            .captionProduct1{
+                margin-bottom: 20px;
+            }
+        /* ----------------------------keterangan size dan add to cart---------------------------------------- */
+        .productConten1{
+            margin-top: 40px;
+        }
+            .productConten1_1{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+            }
+            .productConten1_1 span{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 28px;
+                color: rgba(0, 0, 0, 0.85);
+                margin-left: 10px;
+            }
+            .productConten1_1 i{
+            margin-left: 10px;
+            }
+            .productConten1_2 button{
+                margin-top: 50px;
+                width: 174px;
+                height: 48px;
+                border: 1px solid black;
+                background-color: black;
+                color: white;
+            }
+        /* -----------------------material bahan----------------------------- */
+        .productConten2{
+            display: flex;
+            /* flex-direction: row-reverse; */
+            flex-direction: column;
+            text-align: right;
+            margin-top: -80px;
+        }
+
+/* ------------------------footer---------------------------------------- */
+    .footer{
+        margin-top: 50px;
+    }
+/* .footer2{
+    border-top: solid 1px #C4C4C4;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+    .footer2 img{
+        margin-top: 10px;
+    } */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 868px){
+.container{
+    width: 100%;
+}
+.halaman2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 55px;
+    margin-bottom: -20px;
+}
+    .gambarOrang img{
+        width: 423px;
+        height: 467px;
+    }
+}
+.footer2{
+    border-top: solid 1px #C4C4C4;
+    text-align: center;
+    margin-top: 80px;
+}
+    .footer2 img{
+        margin-top: 10px;
+    }
+.titleProduct{
+    margin-top: 0;
+}

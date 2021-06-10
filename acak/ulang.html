@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .done {text-decoration: line-through;}
+    </style>
+</head>
+<body>
+    <div>
+        <form action="#">
+            <input type="text" id="input">
+            <button class="satu" onclick="add()">add</button>
+        </form>
+        <ul id="todo">
+
+        </ul>
+    </div>
+
+    <script>
+        const todo = document.querySelector('#todo')
+        function add(){
+            // 1. ambil nilai dari text
+            let inputNew = document.querySelector('#input')
+            // 2. ambil list baru kedalam li
+            let newTodo = '<li><spand onclick ="toggle(this)">' + 
+                          inputNew.value + '</spand>' + 
+                          '<button onclick ="removeItem(this)">X</button></li>'
+
+            todo.insertAdjacentHTML("afterbegin",newTodo);
+            // 3. mereset ulang input
+            inputNew.value = ''
+        }
+            // 4. membuat coretan pada list
+        function toggle(el){
+            el.classList.toggle('done')
+        }
+            // 5. membuat item list terhapus
+        function removeItem(el){
+            el.parentElement.remove()
+        }
+
+    </script>
+</body>
+</html>

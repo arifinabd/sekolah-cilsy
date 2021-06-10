@@ -1,0 +1,132 @@
+/* flex-direction: row,row-reverse,column,column-reverse */
+.container {
+    border: 3px solid black;
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:row;
+}
+.container div {
+    background-color: cornflowerblue;
+    /*width: 100px;
+    height: 100px;*/
+    color:darkblue;
+    margin: 5px;
+    flex: 1;
+}
+.container div.tiga {
+    flex: 3;
+}
+
+/*------------------------------------------------------*/
+
+/* flex-warp: wrap,wrap-reverse,nowrap */
+
+.container_2 {
+    border: 3px solid black;
+    width: 600px;
+    padding: 5px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_2 div {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    color:darkblue;
+    margin: 5px;
+}
+/*------------------------------------------------------*/
+
+/* justify-content: flex-start,flex-end,center,space-between,space-around,space-evenly */
+.container_3 {
+    border: 3px solid black;
+    width: 600px;
+    padding: 5px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.container_3 div {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    color:darkblue;
+    margin: 5px;
+}
+/*---------------------------------------------------------*/
+
+/* align-items: flex-start,flex-end,center,stretch,baseline */
+.container_4 {
+    border: 3px solid black;
+    width: 600px;
+    height: 400px;
+    padding: 5px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: stretch; */
+    align-items: baseline; /*sejajarin conten*/
+}
+
+.container_4 div {
+    background-color: cornflowerblue;
+    width: 100px;
+    /* height: 100px; */
+    color:darkblue;
+    margin: 5px;
+}
+.container_4 div.dua {
+    font-size: 100px;
+}
+/* --------------------------------------------------------- */
+
+/* align-content: flex-start,flex-end,center,stretch,space-between,space-around */
+/* penggunaan align-content digunakan setelah flex-wrap */
+.container_5 {
+    border: 3px solid black;
+    width: 600px;
+    height: 600px;
+    padding: 5px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+
+.container_5 div {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+/* -------------------------------------------------------- */
+
+/* align-self: auto,flex-start,flex-end,center,baseline,stretch */
+.container_6 {
+    border: 3px solid black;
+    width: 600px;
+    height: 400px;
+    padding: 5px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.container_6 div {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.container_6 div.tiga {
+    align-self: flex-end;
+}

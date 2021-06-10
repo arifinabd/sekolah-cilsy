@@ -1,0 +1,140 @@
+
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+.header  {
+    background-color: skyblue;
+    height: 120px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.header .header-satu {
+    font-size: 30px;
+    font-style: italic;
+}
+.header .header-dua {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.menu-satu, .menu-dua{
+    margin: 10px 5px 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title {
+    background-color: #999;
+    height: 70px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.conten {
+    margin: 20px auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.conten .conten-satu {
+    border-right: 1px solid black;
+}
+.conten .conten-satu p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    word-spacing: 5px;
+}
+.conten .conten-satu span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.conten .conten-dua img {
+    width: 500px;
+    height: 300px;
+    margin-left: 10px;
+}
+.conten .conten-dua p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 10px;
+    word-spacing: 5px;
+}
+
+
+.sub-conten {
+    border-top: 1px solid black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    word-spacing: 5px;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sub-conten .sub-conten-satu {
+    padding: 20px;
+}
+.sub-conten .sub-conten-dua {
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: rgb(73, 73, 73);
+    height: 130px;
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-satu h2 {
+    color: rgb(201, 201, 201);
+    margin: 10px;
+    padding-left: 10px;
+}
+.footer .footer-satu p {
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+    line-height: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.footer .footer-dua {
+    background-color: #999;
+    border: 1px solid #999;
+    width: 70px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+
+}

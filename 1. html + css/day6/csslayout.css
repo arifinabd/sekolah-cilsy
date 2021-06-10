@@ -1,0 +1,82 @@
+
+body {
+    background-color: rgb(197, 195, 195);
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+.title{
+    background-color: rgba(71, 93, 212, 0.8);
+    height: 100px;
+    color: white
+}
+.title_1 {
+    font-size: 2rem; /*1rem = 16px*/
+    font-style: italic;
+    padding: 10px;
+}
+.title_2 {
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 10px;
+    /*text-align: center;*/
+    line-height: 1px; /*untuk mepetin tulisan dengan tulisan di barisa atas*/
+}
+.menu{
+    font-style: italic;
+    color: black;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 600;
+    height: 15px;
+    border-bottom: 2px solid black;
+}
+.menu_left {
+    float: left;
+}
+.menu_right {
+    float: right;
+}
+.headline{
+    background-color:rgb(61, 61, 61);
+    color: white;
+    font-size: 2.5rem;
+    padding: 5px;
+    font-weight: bold;
+}
+.contain {
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem; 
+}
+.contain img {
+    float: right;
+}
+.contain span {
+    font-size: 2rem;
+}
+
+.sub_contain {
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+}
+.footer{
+    color: white;
+    background-color: rgb(61, 61, 61);
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+}
+.footer p {
+    padding: 10px;
+}
+.footer span {
+    font-size: 2rem;
+}
+.footer img {
+    float: right;
+    width: 150px;
+    height: 100px;
+    padding: 25px;
+} 
