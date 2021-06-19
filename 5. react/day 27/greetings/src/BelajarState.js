@@ -26,4 +26,4 @@ const BelajarState = () => {
     )
 }
 
-export default BelajarState
+export default BelajarState;

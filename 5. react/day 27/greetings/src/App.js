@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hallo from './hallo';
 import BelajarState from './BelajarState';
+import Greeting from './Greeting';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <p>world</p>
         </Hallo> */}
         <BelajarState></BelajarState>
+        <Greeting></Greeting>
       </header>
     </div>
   );
