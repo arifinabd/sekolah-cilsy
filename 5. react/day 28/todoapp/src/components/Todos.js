@@ -3,6 +3,7 @@ import Header from './Header';
 import ActionTodo from './ActionTodo';
 import Footer  from './Footer';
 import FilterTodo from './FilterTodo';
+import Todo from './Todo';
 
 export default function Todos(){
     const [todos, setTodos] = useState([
@@ -24,6 +25,13 @@ export default function Todos(){
     const onFilterTodo = (search, completed) => {
         setFilter({search, completed})
     }
+
+    const onCompletedTodo = (id) => {
+        const todo = todos.find((val) => val.id === id)
+        todo.completed = true
+        setTodos([...todos])
+    }
+
     const filteredTodo = todos.filter((todo) => {
         const searchText = todo.text.toLocaleLowerCase().includes(filter.search.toLocaleLowerCase())
         const hideCompleted = !filter.completed || !todo.completed
@@ -35,11 +43,18 @@ export default function Todos(){
         <div>
             <Header/>
             <FilterTodo onFilterTodo={onFilterTodo}/>
+
             {filteredTodo.map((val, key) =>{
                 return (
-                    <h4 key={key}>{key +1}.{val.text}</h4>
+                    <Todo 
+                        key={key} 
+                        no={key + 1} 
+                        data={val}
+                        onCompletedTodo={onCompletedTodo}
+                    />
                 )
             })}
+            
             <ActionTodo onAddTodo={onAddTodo}/>
             <Footer/>
         </div>
